@@ -1,0 +1,84 @@
+.email img,
+.password img {
+    width: 20px;
+    padding: .7em;
+    border: 1px solid black;
+    border-radius: 8px;
+    opacity: .5;
+    cursor: pointer;
+}
+.container input{
+    padding: 1.1em 2em;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 100%;
+
+}
+.form-container{
+    margin: 17%;
+}
+
+.form-container p{
+    font-size: x-large;
+}
+.email,
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap: 1em;
+}
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+.btns{
+    color: black;
+    background: #7EC143;
+    padding: 1em 2em;
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    font-size: medium;
+    text-transform: uppercase ;
+}
+
+.btns:hover{
+    color:#7EC143;
+    background-color: rgb(53, 52, 52);
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: left;
+    justify-content: center;
+}
+.form .people{
+    width: 35.079%;
+    margin: 0;
+}
+
+.sims img{
+    height: 50px;
+}
+.sims{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.sims span{
+    color: green;
+}

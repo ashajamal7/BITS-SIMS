@@ -1,0 +1,204 @@
+.dashboard{
+    display: flex;
+    /* align-items: center; */
+}
+.container1{
+    width: 20%;
+    color: white;
+    background-color: black;
+    /* margin-right: -10; */
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.header img{
+    height: 2.9em;
+}
+span{
+    font-size: small;
+}
+.registar{
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    font-size: large;
+}
+.calendar{
+    margin-left: 10px;
+}
+.box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box button{
+    background-color: #7EC143;
+    padding: .5em 1em;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.box img{
+    width: 1.7em;
+    margin-right: 10px;
+}
+.logout button{
+    margin-top: 115px;
+    background-color: red;
+    padding: .6em 1em;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.records{
+    margin-left: 10px;
+}
+.container2{
+    color: black;
+    width: 80%;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.header1 h1{
+    font-size: x-large;
+}
+.username span{
+    font-size: x-small;
+    margin: 0;
+    color: gray;
+    align-self: center;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+   
+}
+h2{
+    font-size: large;
+    color: black;
+}
+.title{
+    font-size: large;
+    margin-left: 20px;
+}
+.users{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: fit-content;
+    padding-block:1.4em ;
+    /* border-radius: 8px; */
+    border:1px solid #7EC143;
+    border-bottom:4px solid #7EC143 ;
+    margin-left: 20px;
+}
+.users .userbox{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+.active{
+    margin-left: 20px;
+    
+}
+.total{
+    display: flex;
+    align-items: center;
+    height: 20px;
+
+    gap:.5em;
+}
+.users p{
+    margin: 0;
+}
+.total h1{
+    font-size: 25px;
+    color: black;
+}
+.total h2{
+    font-size: 12px;
+}
+.ins-type p{
+    font-weight: bold;
+    font-size: small;
+}
+.ins-type:first-child{
+    border:1px solid #7EC143;
+    border-bottom:4px solid #7EC143;
+}
+.ins-type:nth-child(2){
+    border:1px solid #43c143;
+    border-bottom:4px solid #43c143;
+
+}
+.ins-type:nth-child(3){
+    border:1px solid #C85A4B;
+    border-bottom:4px solid #C85A4B;
+}
+.graduate{
+    margin-right: 20px;
+}
+.installment{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.ins-type p{
+    margin: 0;
+}
+.ins-type{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    gap: 1em;
+    padding: 1em 1em;
+   justify-self: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.image img{
+    width: 20em;
+   
+}
+.update{
+    display: flex;
+    flex-direction: column;
+}
+.actions p{
+    color: black;
+}
+.actions span{
+    color: gray;
+}
+.footer{
+    margin-left: 20px;
+}
+.actions h1{
+    font-size:20px;
+    margin-top: 10px;
+}
+.actions p, span{
+    font-size: 12px;
+}
+.image img{
+   margin-top:-200px;
+   transform: scaleX(-1);
+   
+}
+
+

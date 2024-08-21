@@ -1,0 +1,108 @@
+.dashboard{
+    display: flex;
+    /* align-items: center; */
+}
+
+
+
+.container2{
+    color: black;
+    width: 80%;
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+.header1 h1{
+    font-size: x-large;
+}
+.username span{
+    font-size: x-small;
+    margin: 0;
+    color: gray;
+    align-self: center;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+   
+}
+h2{
+    font-size: large;
+    color: black;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.academic-title{
+    font-size: medium;
+    color: rgb(87, 85, 85);
+}
+.time{
+    display: flex;
+    align-items: center;
+    padding: .5em 1em;
+    gap: 1em;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    justify-content: space-around;
+    background-color:#7EC143 ;
+    margin-right: 20px;
+}
+.time img{
+    width: 1.2em;
+}
+.time li{
+    list-style: none;
+}
+.options{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;  
+   width: 20%; 
+   margin-left: 20px;
+}
+.options select{
+    padding: .8em 3em;
+    width: 100%;
+    border-radius: 8px;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.filter button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     border-radius: 8px;
+     background-color: #7EC143;
+     border: hidden;
+     width: 9em;
+    height: 2.8em;
+     /* width: 60%; */
+}
+.filter img{
+    width: 1.2em;
+}
+.clear button{
+    display: flex;
+    align-items: center;
+    /* padding: .8em 1.5em; */
+    border-radius: 8px;
+    background-color: #C85A4B;
+    border: hidden;
+    justify-content: space-around;
+    width: 6.5em;
+    height: 2.8em;
+}
+.clear img{
+    width: 1.2em;
+}

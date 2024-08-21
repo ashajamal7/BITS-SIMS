@@ -1,0 +1,60 @@
+.container1{
+    width: 20%;
+    color: white;
+    background-color: black;
+    /* margin-right: -10; */
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.header img{
+    height: 2.9em;
+}
+span{
+    font-size: small;
+}
+.registar{
+    display: flex;
+    flex-direction: column;
+}
+.header h1{
+    font-size: large;
+}
+.calendar{
+    margin-left: 10px;
+}
+.box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbutts{
+    width: 100%;
+    text-decoration: none;
+}
+
+.box button{
+    background-color: #7EC143;
+    padding: .5em 1em;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.box img{
+    width: 1.7em;
+    margin-right: 10px;
+}
+.logout button{
+    margin-top: 115px;
+    background-color: #C85A4B;
+    padding: .6em 1em;
+    width: 100%;
+    justify-content: space-between;
+}
+.logout button:hover{
+    background-color: rgb(161, 27, 27);
+}
